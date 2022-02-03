@@ -1,0 +1,43 @@
+h1 {
+    font-size:60px;
+    text-shadow: 2px 3px 0 rgb(0, 0, 0);
+    background-color: rgb(16, 53, 83);
+    padding: 5px;
+    margin:5%;
+    text-align:center;
+    background:#b6dbdb;
+    border-color:wheat;
+    border-radius: 30px;
+
+}
+body{
+    background-image:url(../buttons2/img/cool-background.png);
+    
+
+}
+p,label,h1 {
+    text-shadow:0.5px 0px 0 rgb(10, 6, 7);
+    color:#001414;
+}
+
+input:hover,select:hover{
+    background:mediumaquamarine;
+}
+
+input,select{
+    background:#d2f1ed
+}
+
+table{
+    background:#b6dbdb;
+    border-color:wheat;
+    border-radius: 30px;
+    padding:1em; 
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.btn:hover{
+    background:mediumaquamarine;
+}
+

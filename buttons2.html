@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="buttons2.css" rel="stylesheet">
+    <title>SE HVOR GOD JEG ER TIL Å LAGE KNAPPER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form action="URL-adresse">
+
+        <h1>Assignment</h1>
+    <table>
+        <tr><th><p>Where are you from?</p></th>
+
+        <td><select name="Countries" required>
+            <option value="">Country/County</option>
+            <option value="Polen">Poland</option>
+            <option value="Italia">Italy</option>
+            <option value="Hellas">Greece</option>
+            <option value="Rogaland">Rogaland</option>
+        </select></td></tr>
+        <tr><td colspan="2"> <hr> </td> </tr>
+        <tr><th><label for="favcolor">Select your favorite color:</label></th>
+        <td><input type="color" id="favcolor" name="favcolor" value="#ff0000"></td></tr>
+        <td>    </td>
+        <tr><td colspan="2"> <hr> </td> </tr>
+	
+       <tr><th><label for="vol">Volume (between 0 og 100 dB):</label></th>
+        <td><input type="range" id="vol" name="vol" min="0" max="100"></td></tr>
+        <tr><td colspan="2"> <hr> </td> </tr>
+        <tr><th><label for="fname">First name: </label></th>
+        <td><input type="text" id="fname" name="fname"></td></tr>
+        <tr><th><label for="lname">Last name: </label></th>
+        <td><input type="text" id="lname" name="lname"></td></tr>
+        <tr><td colspan="2"> <hr> </td> </tr>
+
+    
+        <tr><th><label for="birthday">Date of birth:</label></th>
+        <td><input type="date" id="birthday" name="birthday"></td></tr>
+        <tr><td colspan="2"> <hr> </td> </tr>
+
+        <tr><th><label for="email">Email:</label></th>
+        <td><input type="email" id="email" name="email"></td></tr>
+            
+        <tr><td colspan="2"> <hr> </td> </tr>
+        
+
+        <tr><th><label for="pwd">Password:</label></th>
+        <td><input type="password" id="pwd" name="pwd" minlength="8"></td></tr>
+
+        <tr><td colspan="2"> <hr> </td> </tr>
+        <tr><th><label>What do you wish to drink with your food?</label></th>
+        <td><ul><li><input type="radio" value="brus" name="rbDrikke"><span>Soda</span></li>
+        <li><input type="radio" value="brus" name="rbDrikke"><span>Soda</span></li>
+        <li><input type="radio" value="brus" name="rbDrikke"><span>Soda</span></li></ul></td></tr> 
+        
+
+        <tr><th colspan="2"><input  class="btn" type="submit"></th></tr>
+    
+</table>
+    </form>
+</body>
+
+</html>
